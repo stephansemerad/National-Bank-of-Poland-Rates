@@ -3,7 +3,6 @@ from datetime import datetime
 
 class plnFX:
     def __init__(self):
-        self.year = None
         self.url = 'https://api.nbp.pl/api/exchangerates/rates/A/EUR'
 
     def get_year(self, year):
@@ -32,8 +31,9 @@ class plnFX:
        
 if __name__ == '__main__':
     fx = plnFX()
+    
     year_rate = fx.get_year('2022')
-    print('year_rate: ', year_rate)
-    print()
+    print('\n year_rate: ', year_rate)
+    
     day_rate = fx.get_date('2022-01-03')
-    print('day_rate: ', day_rate)
+    print('\n day_rate: ', day_rate)
