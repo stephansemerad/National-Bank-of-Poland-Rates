@@ -2,8 +2,6 @@
 
 So the ECB publishes their rates but for accounting purposes in Poland there is a requirement to use the rate directly from the Polish National Bank instead of the ECB. Therefore I wrote this library because I am sure other people will need this and I havent found any library. So I dit it.
 
-![alt text](https://github.com/stephansemerad/National-Bank-of-Poland-Rates/blob/master/pln/overview.png)
-
 # How To Use
 
 Creating A Server
@@ -19,3 +17,7 @@ day_rate = fx.get_date('2022-01-03')
 print('\n day_rate: ', day_rate)
 
 ```
+
+![alt text](https://github.com/stephansemerad/National-Bank-of-Poland-Rates/blob/master/pln/overview.png)
+
+![alt text](https://github.com/stephansemerad/National-Bank-of-Poland-Rates/blob/master/pln/api.png)
