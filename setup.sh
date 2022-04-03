@@ -19,3 +19,7 @@ twine upload dist/*
 rmdir /s /q dist
 rmdir /s /q build
 rmdir /s /q pln_fx.egg-info
+
+git add .
+git commit -m "update"
+git push
