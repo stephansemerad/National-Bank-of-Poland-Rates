@@ -1,7 +1,7 @@
 README.md
 setup.py
-pln/__init__.py
-pln/fx.py
+pln_fx/__init__.py
+pln_fx/fx.py
 pln_fx.egg-info/PKG-INFO
 pln_fx.egg-info/SOURCES.txt
 pln_fx.egg-info/dependency_links.txt
