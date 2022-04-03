@@ -23,7 +23,7 @@ setup(
     install_requires=['requests'],
     keywords=['python', 'poland', 'fx', 'exchange rates', 'exchange', 'pln', 'plnfx', 'zloty'],
     classifiers=[
-        "Development Status :: 1 - Planning",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Programming Language :: Python :: 3",
         "Operating System :: Unix",
