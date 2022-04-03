@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
 
-class plnFX:
+class PLN_FX:
     def __init__(self):
         self.url = 'https://api.nbp.pl/api/exchangerates/rates/A/EUR'
 
@@ -30,7 +30,7 @@ class plnFX:
         return None
 
 if __name__ == '__main__':
-    fx = plnFX()
+    fx = PLN_FX()
     
     year_rate = fx.get_year('2022')
     print('\n year_rate: ', year_rate)

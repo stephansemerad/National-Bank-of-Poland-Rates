@@ -2,8 +2,6 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-#https://www.youtube.com/watch?v=tEFkHEKypLI&ab_channel=NeuralNine
-
 here = os.path.abspath(os.path.dirname(__file__))
 
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
