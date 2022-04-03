@@ -28,9 +28,7 @@ class PLN_FX:
         for x in data:
             if x["date"] == str(date.date()):
                 return x
-                break
         return None
-
 
 if __name__ == "__main__":
     fx = PLN_FX()

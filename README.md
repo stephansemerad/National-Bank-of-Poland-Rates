@@ -2,7 +2,7 @@
 
 So the ECB (European Central Bank) publishes PLN (Zloty) rates but for accounting purposes in Poland there is a requirement to use the rate directly from the Polish National Bank instead of the ECB. Therefore I wrote this library because I am sure other people will need this and I havent found any library. So I dit it.
 
-![](https://github.com/stephansemerad/National-Bank-of-Poland-Rates/blob/master/pln/api.png?raw=true)
+![](https://raw.githubusercontent.com/stephansemerad/National-Bank-of-Poland-Rates/master/pln_fx/api.png)
 
 # How To Use
 
@@ -18,4 +18,4 @@ print('\n day_rate: ', day_rate)
 
 ```
 
-![](https://raw.githubusercontent.com/stephansemerad/National-Bank-of-Poland-Rates/master/pln/overview.png)
+![](https://raw.githubusercontent.com/stephansemerad/National-Bank-of-Poland-Rates/master/pln_fx/overview.png)
