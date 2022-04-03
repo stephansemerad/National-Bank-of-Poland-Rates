@@ -6,8 +6,6 @@ So the ECB (European Central Bank) publishes PLN (Zloty) rates but for accountin
 
 # How To Use
 
-Creating A Server
-
 ```python
 from pln_fx import PLN_FX
 fx = PLN_FX()
