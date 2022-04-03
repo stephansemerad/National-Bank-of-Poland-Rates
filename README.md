@@ -4,6 +4,11 @@ So the ECB (European Central Bank) publishes PLN (Zloty) rates but for accountin
 
 ![](https://raw.githubusercontent.com/stephansemerad/National-Bank-of-Poland-Rates/master/pln_fx/api.png)
 
+# Links
+
+[a link](https://pypi.org/project/pln-fx/)
+[a link](https://github.com/stephansemerad/National-Bank-of-Poland-Rates)
+
 # Install
 
 ```bash
