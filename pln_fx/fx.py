@@ -13,13 +13,14 @@ class PLN_FX:
         end_year = today if end_year > today else end_year
         url = f"{self.url}/{start_year.date()}/{end_year.date()}/"
         response = requests.get(url)
+        
         if not response.status_code == 200:
             raise Exception("National Bank of Poland API not reachable.")
-        else:
-            data = response.json()
-            data = data.get("rates", [])
-            data = [{"date": x["effectiveDate"], "rate": x["mid"]} for x in data]
-            return data
+
+        data = response.json()
+        data = data.get("rates", [])
+        data = [{"date": x["effectiveDate"], "rate": x["mid"]} for x in data]
+        return data
 
     def get_date(self, date):
         date = datetime.strptime(date, "%Y-%m-%d")
