@@ -2,12 +2,9 @@
 
 So the ECB (European Central Bank) publishes PLN (Zloty) rates but for accounting purposes in Poland there is a requirement to use the rate directly from the Polish National Bank instead of the ECB. Therefore I wrote this library because I am sure other people will need this and I havent found any library. So I dit it.
 
-![](https://raw.githubusercontent.com/stephansemerad/National-Bank-of-Poland-Rates/master/pln_fx/api.png)
-
 # Links
 
-[https://pypi.org/project/pln-fx/](https://pypi.org/project/pln-fx/)
-
+[https://pypi.org/project/pln-fx/](https://pypi.org/project/pln-fx/)<br />
 [https://github.com/stephansemerad/National-Bank-of-Poland-Rates](https://github.com/stephansemerad/National-Bank-of-Poland-Rates)
 
 # Install
@@ -29,5 +26,7 @@ day_rate = fx.get_date('2022-01-03')
 print('\n day_rate: ', day_rate)
 
 ```
+
+![](https://raw.githubusercontent.com/stephansemerad/National-Bank-of-Poland-Rates/master/pln_fx/api.png)
 
 ![](https://raw.githubusercontent.com/stephansemerad/National-Bank-of-Poland-Rates/master/pln_fx/overview.png)
